@@ -1,0 +1,21 @@
+(deffacts products 
+    (product (device laptop) (brand hp) (model pavilionX360) (disc 256SSD) (ram 16gb) (price 19000)) 	 	
+    (product (device laptop) (brand hp) (model pavilion15cw1012la) (disc 512SSD) (ram 16gb) (price 18000)) 
+    (product (device laptop) (brand asus) (model rog) (disc 512SSD) (ram 8gb) (price 27999)) 
+    (product (device laptop) (brand asus) (model tufF17) (disc 512SSD) (ram 16gb) (price 26999)) 
+    (product (device laptop) (brand apple) (model macbookPro) (disc 256SSD) (ram 8gb) (price 34499)) 
+    (product (device laptop) (brand apple) (model macbookAir) (disc 512SSD) (ram 8gb) (price 31399)) 
+    (product (device laptop) (brand lenovo) (model ideapad3) (disc 128SSD) (ram 4gb) (price 8099)) 
+    (product (device laptop) (brand huawei) (model matebookD) (disc 256SSD) (ram 8gb) (price 12200)) 
+    (product (device laptop) (brand dell) (model inspiron) (disc 256SSD) (ram 8gb) (price 12499)) 
+)
+
+(deffacts payments
+    (payment (method debito) (bank BBVA) (promotion "15 por ciento en cashback"))
+    (payment (method credito) (bank BBVA) (promotion "24 meses sin intereses"))
+    (payment (method debito) (bank Banamex) (promotion "5 por ciento en cashback"))
+    (payment (method credito) (bank Banamex) (promotion "12 meses sin intereses"))
+    (payment (method debito) (bank Santander) (promotion "7 por ciento en cashback"))
+    (payment (method credito) (bank Santander) (promotion "3 meses sin intereses"))
+    (payment (method credito) (bank AmericanExpress) (promotion "6 meses sin intereses"))
+)

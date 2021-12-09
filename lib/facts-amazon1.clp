@@ -1,0 +1,25 @@
+(deffacts products 
+ 	(product (device smartphone) (brand xiaomi) (model mi11) (disc 128gb) (ram 6gb) (price 20000))
+ 	(product (device smartphone) (brand apple) (model iPhone13) (disc 256gb) (ram 6gb) (price 29000))
+ 	(product (device smartphone) (brand huawei) (model nova9) (disc 128gb) (ram 6gb) (price 13000))
+ 	(product (device smartphone) (brand samsung) (model s21) (disc 64gb) (ram 6gb) (price 17200))
+ 	(product (device smartphone) (brand motorola) (model g9plus) (disc 32gb) (ram 6gb) (price 8000))
+ 	(product (device smartphone) (brand oppo) (model reno6) (disc 256gb) (ram 6gb) (price 11200))
+ 	(product (device smartphone) (brand xiaomi) (model mi11) (disc 64gb) (ram 6gb) (price 18000))
+ 	(product (device smartphone) (brand apple) (model iPhone13) (disc 128gb) (ram 6gb) (price 23000))
+ 	(product (device smartphone) (brand huawei) (model nova9) (disc 64gb) (ram 6gb)  (price 12100))
+ 	(product (device smartphone) (brand samsung) (model s21) (disc 32gb) (ram 6gb)  (price 15800))
+ 	(product (device smartphone) (brand motorola) (model g9plus) (disc 64gb) (ram 6gb)  (price 9500))
+ 	(product (device smartphone) (brand oppo) (model reno6) (disc 128gb) (ram 6gb)  (price 12700))
+)
+
+(deffacts payments
+    (payment (method debito) (bank BBVA))
+    (payment (method credito) (bank BBVA))
+    (payment (method debito) (bank Banamex))
+    (payment (method credito) (bank Banamex))
+    (payment (method debito) (bank Santander))
+    (payment (method credito) (bank Santander))
+    (payment (method credito) (bank AmericanExpress))
+)
+

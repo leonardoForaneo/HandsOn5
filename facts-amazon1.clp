@@ -1,0 +1,25 @@
+(deffacts products 
+ 	(product (device smartphone) (brand xiaomi) (model mi11) (disc 128gb) (ram 6gb) (price 20000))
+ 	(product (device smartphone) (brand apple) (model iPhone13) (disc 256gb) (ram 6gb) (price 29000))
+ 	(product (device smartphone) (brand huawei) (model nova9) (disc 128gb) (ram 6gb) (price 13000))
+ 	(product (device smartphone) (brand samsung) (model s21) (disc 64gb) (ram 6gb) (price 17200))
+ 	(product (device smartphone) (brand motorola) (model g9plus) (disc 32gb) (ram 6gb) (price 8000))
+ 	(product (device smartphone) (brand oppo) (model reno6) (disc 256gb) (ram 6gb) (price 11200))
+ 	(product (device smartphone) (brand xiaomi) (model mi11) (disc 64gb) (ram 6gb) (price 18000))
+ 	(product (device smartphone) (brand apple) (model iPhone13) (disc 128gb) (ram 6gb) (price 23000))
+ 	(product (device smartphone) (brand huawei) (model nova9) (disc 64gb) (ram 6gb)  (price 12100))
+ 	(product (device smartphone) (brand samsung) (model s21) (disc 32gb) (ram 6gb)  (price 15800))
+ 	(product (device smartphone) (brand motorola) (model g9plus) (disc 64gb) (ram 6gb)  (price 9500))
+ 	(product (device smartphone) (brand oppo) (model reno6) (disc 128gb) (ram 6gb)  (price 12700))
+)
+
+(deffacts payments
+    (payment (method debito) (bank BBVA) (promotion "15 por ciento en cashback"))
+    (payment (method credito) (bank BBVA) (promotion "24 meses sin intereses"))
+    (payment (method debito) (bank Banamex) (promotion "5 por ciento en cashback"))
+    (payment (method credito) (bank Banamex) (promotion "12 meses sin intereses"))
+    (payment (method debito) (bank Santander) (promotion "7 por ciento en cashback"))
+    (payment (method credito) (bank Santander) (promotion "3 meses sin intereses"))
+    (payment (method credito) (bank AmericanExpress) (promotion "6 meses sin intereses"))
+)
+
